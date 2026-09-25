@@ -66,6 +66,11 @@ yarn-error.log
 # testing
 /coverage
 
+# Local environment configuration (only the template is committed)
+.env
+.env.*
+!.env.example
+
 # Yarn
 .yarn/*
 !.yarn/patches
